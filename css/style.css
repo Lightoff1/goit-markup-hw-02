@@ -1,0 +1,50 @@
+/* Web-studio */
+body {
+  background-color: #ececec;
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+.link {
+}
+
+/* #212121 вторичный цвет  */
+/* #757575 цвет основного текста */
+/* #FFFFFF белый */
+/* #2196F3 акцент и "web" в лого */
+/* #000000 "studio" в лого чёрный */
+/* #2F303A цвет background героя и футера */
+/* #ECECEC цвет background шапки */
+/* #F5F4FA цвет background секции "наша команда" */
+/* #E5E5E5 цвет background секции "чем мы занимаемся" */
+/* rgba(255, 255, 255, 0.6) цвет e-mail и номера телефона футер */
+/* Стилизируем header */
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio-head {
+  color: #000000;
+}
+.logo-studio-foot {
+  color: #ffffff;
+}
+.nav-elements .link {
+  color: #212121;
+}
+.nav-elements .link:hover,
+.nav-elements .link:focus {
+  color: #2196f3;
+}
+.contacts .mail,
+.contacts .phone {
+  color: #757575;
+}
+.contacts .mail:hover,
+.contacts .mail:focus {
+  color: #2196f3;
+}
+.contacts .phone:hover,
+.contacts .phone:focus {
+  color: #2196f3;
+}
