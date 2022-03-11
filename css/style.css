@@ -9,7 +9,7 @@
 
 /* Web-studio */
 body {
-  background-color: #e5e5e5;
+  background-color: #ffffff;
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
 }
@@ -20,12 +20,12 @@ body {
   text-decoration: none;
 }
 
-/* Палитра цветов */
+/* Палитра цветов студия*/
 /* #212121 вторичный цвет  */
 /* #757575 цвет основного текста */
 /* #FFFFFF третичный белый, фон шапки */
 /* #2196F3 акцент и "web" в лого */
-/* #E5E5E5 основной цвет фона 
+/* #FFFFFF основной цвет фона 
 /* #000000 "studio" в лого чёрный */
 /* #2F303A цвет фона героя и футера */
 /* #F5F4FA цвет фона секции "наша команда" */
