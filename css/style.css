@@ -21,15 +21,13 @@ body {
 }
 
 /* Палитра цветов студия*/
-/* #212121 вторичный цвет  */
+/* #212121 вторичный цвет */
 /* #757575 цвет основного текста */
-/* #FFFFFF третичный белый, фон шапки */
 /* #2196F3 акцент и "web" в лого */
-/* #FFFFFF основной цвет фона 
+/* #FFFFFF третичный белый, основной фон и фон шапки */
 /* #000000 "studio" в лого чёрный */
 /* #2F303A цвет фона героя и футера */
-/* #F5F4FA цвет фона секции "наша команда" и кнопки фильтров
- */
+/* #F5F4FA цвет фона секции "наша команда" и кнопки фильтров */
 /* rgba(255, 255, 255, 0.6) цвет e-mail и номера телефона футер */
 
 /* Стилизируем header */
@@ -41,22 +39,24 @@ body {
 .logo-web {
   color: var(--accent-color);
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-studio-head {
   color: #000000;
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700px;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 /* Элементы навигации */
 .nav {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .nav-item {
@@ -87,79 +87,77 @@ body {
   color: var(--tertiary-text-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
+  text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-button {
   background-color: var(--accent-color);
   color: var(--tertiary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  width: 200px;
-  height: 50px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: 0;
-  border-radius: 4px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 /* Особенности и чем мы занимаемся*/
-.features .we-are {
-  background-color: #e5e5e5;
-}
+
 .fetures-title {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .features-item {
+  font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.we-are-title {
+.what-are-we-doing-title,
+.our-team-title {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 /* Наша команда */
 .our-team {
   background-color: #f5f4fa;
 }
-.our-team-title {
-  color: var(--secondary-text-color);
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
-}
 .our-team-name {
   background-color: var(--tertiary-text-color);
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 .our-team-spec {
   background-color: var(--tertiary-text-color);
+  font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
+  text-align: center;
   letter-spacing: 0.03em;
 }
 
 /* стилизируем portfolio.html */
 /* кнопки фильтров */
 .filter-button {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.62;
+  text-align: center;
   letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
   background: #f5f4fa;
   border: 0;
   border-radius: 4px;
@@ -179,20 +177,26 @@ body {
 }
 .logo-studio-foot {
   color: var(--tertiary-text-color);
-  font-family: Raleway;
-  font-weight: bold;
+  font-family: "Raleway";
+  font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .adress {
   color: var(--tertiary-text-color);
   font-style: normal;
+
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .footer-contacts .mail,
 .footer-contacts .phone {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-contacts .mail:hover,
